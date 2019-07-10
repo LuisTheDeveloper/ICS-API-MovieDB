@@ -1,0 +1,37 @@
+<!DOCTYPE html></body>
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <title>MovieInfo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <nav class="navbar-default">
+        <div class="navbar-header">
+            <a class="navbar-page" href="index.html">Search for any movie</a>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron">
+            <h3 class="text-center">Search For Any Movie</h3>
+                <form id="searchForm" name="search">
+                    <input type="text" class="form-control" id="searchText" placeholder="Search Movies...">
+                </form>
+                <button id="btnSearch" >Search</button>
+        </div>
+    </div>      
+    <div class="container">
+        <div id="movies" class="row"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>    
+    <script src="js/main.js"></script>               
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous">
+    </script>
+</body>
+</html>
